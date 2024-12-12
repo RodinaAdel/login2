@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/registrationStyle.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    
+    <div class="container shadow-lg my-5 text-center w-100">
+        <div class="inner p-5 m-auto w-75">
+
+        <h1 class="text-black mt-3 mb-4">Smart Login System</h1>
+
+        <div class="input-group ">
+
+            <div class="form-floating w-75">
+              <input oninput="validation('name')" type="text" class="form-control bg-transparent" id="name" placeholder="Username" required>
+              <label for="floatingInputGroup1">Enter Your Name</label>
+            </div>
+          </div>
+
+
+        <div class="input-group mt-4">
+
+            <div class="form-floating w-75">
+              <input oninput="validation('email')" type="text" class="form-control bg-transparent" id="email" placeholder="Username" required>
+              <label for="floatingInputGroup1">Enter Your Email</label>
+            </div>
+          </div>
+
+        <div class="input-group mt-4">
+
+            <div class="form-floating w-75 ">
+              <input type="text" oninput="validation('password')" class="form-control bg-transparent" id="password" placeholder="Userpassword" required>
+              <label for="floatingInputGroup2">Enter Your Password</label>
+            </div>
+
+          </div>
+
+          <br>
+    <button onclick="login()" class="btn btn-outline-light form-control py-2 my-3">Login</button>
+    <p class="text-black">Don’t have an account? <a href="login.html"  class="text-black text-decoration-none"> Sign Up</a></p>
+</div>
+</div>
+
+<script src="js/reg.js"></script>
+</body>
+</html>

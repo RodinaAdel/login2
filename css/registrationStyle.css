@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+
+.form-floating{
+    color: white;
+}
+.container{
+    background-color: blueviolet;
+}
+
+.form-floating1 i{
+    width: 50px;
+    height: 58px;
+    vertical-align: middle;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #24353f;
+
+}
+.form-floating1{
+    background-color: #24353f;
+}
